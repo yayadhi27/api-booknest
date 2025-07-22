@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+.env
+.env.test
+logs/
+*.log
+
+# VSCode
+.vscode/
+
+# Jest
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
