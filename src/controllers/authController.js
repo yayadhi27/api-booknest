@@ -1,4 +1,4 @@
-const User = require('/Users/jabaya573@apac.comcast.com/Desktop/booknest-api/src/models/user.js');
+const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 
 exports.signup = async (req, res) => {

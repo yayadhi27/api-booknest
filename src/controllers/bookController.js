@@ -1,4 +1,4 @@
-const Book = require('/Users/jabaya573@apac.comcast.com/Desktop/booknest-api/src/models/book.js');
+const Book = require('../models/book');
 
 exports.listBooks = async (req, res) => {
   const books = await Book.find();
